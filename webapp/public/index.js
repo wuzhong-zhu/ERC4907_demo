@@ -24,6 +24,7 @@ $("#connectMM").on("click",function(){
 });
 
 $("#retrieInfo").on("click",async function(){
+    $("#bottomDiv").empty()
     {
         console.log(window.ethereum.isMetaMask)
         var chainID = await web3.eth.getChainId()
