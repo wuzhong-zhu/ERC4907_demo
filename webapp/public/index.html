@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERC4907 demo app</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">ERC4907 Demo application</h1>
+    <button id="connectMM">Connect to Metamask</button>
+    <p id="account"> Metamask not connected</p>
+    </br>
+    <div id="divTop" >
+        <div id="div1">
+            <p1 style="font-weight: bold;"> Address for Rentable NFT: </p1>
+            <input type="text" id="address" placeholder="Address for Rentable NFT" value="0x935e26C71284C736B18999764f069700A00ecF99" />
+            </br></br><button id="retrieInfo">Retrieve info</button>
+        </div>
+    </div>
+    <div id="bottomDiv"></div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

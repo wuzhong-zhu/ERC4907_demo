@@ -1,0 +1,71 @@
+#title{
+    text-align: center;
+}
+
+#address{
+    height: 24px;
+    width: 330px;
+}
+
+#divTop{
+    position: relative;
+    margin-top: 50px;
+    display: none;
+}
+
+#bottomDiv{
+    position: relative;
+    margin-top: 150px;
+}
+
+#div1{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#connectMM{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#account{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.NFTInfo{
+    border: 1px solid lightblue;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+}
+
+.NFTPic{
+    height: 400px;
+    width: 300px;
+}
+
+.NFTRentalDiv{
+    padding: 10px;
+    position: absolute;
+    z-index: 10;
+    border: solid 5px black;
+    width: fit-content;
+    height: 100px;
+    background: white;
+}
+
+.rentalMonth,.rentalDay,.rentalHour,.rentalMinute,.rentalSecond{
+    width: 50px;
+}
+.rentalAddress{
+    width:300px
+}
